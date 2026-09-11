@@ -1312,7 +1312,8 @@ select:focus {
 .mobile-menu .nav-logo{
 	position:relative;
 	padding:30px 25px;
-	text-align:left;	
+	/* text-align:left;	 */
+    text-align: center;
 }
 .mobile-menu .nav-logo a{
     position: relative;
@@ -2848,4 +2849,11 @@ select:focus {
         right: 0;
         font-size: 35px;
     }
+}
+
+
+.nav-logo img {
+    max-width: 40%;
+    justify-items: center;
+    align-items: center;
 }
