@@ -2885,3 +2885,8 @@ select:focus {
         margin-bottom: 30px;
     }
 }
+
+
+.row {
+    justify-content: center;
+}
